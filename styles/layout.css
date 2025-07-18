@@ -67,3 +67,25 @@
         font-size: 5rem;
     }
 }
+
+.header-container {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .header-container {
+        margin: 0 auto;
+        width: 75%;
+    }
+}
+
+.section-img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .section-img {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
