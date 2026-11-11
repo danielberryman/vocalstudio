@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Berryman — Voice</title>
-    <meta name="description" content="Voice lessons with Daniel Berryman, tenor. Singing gets easier. The old singers knew how." />
+    <meta name="description" content="Voice lessons with Daniel Berryman, tenor. Function first. Artistry follows." />
     <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
     <link rel="icon" href="favicon-48.png?v=2" type="image/png" sizes="48x48" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png?v=2" />
@@ -100,8 +100,6 @@
             .nav-brand { display: none; }
             .nav { justify-content: center; }
             .nav-links a { letter-spacing: 0.2em; font-size: 0.66rem; }
-            .eyebrow { letter-spacing: 0.3em; font-size: 0.68rem; }
-            .eyebrow::before { width: 2rem; }
         }
 
         /* ---------- Hero ---------- */
@@ -156,10 +154,15 @@
             background: var(--brick);
         }
 
+        @media (max-width: 640px) {
+            .eyebrow { letter-spacing: 0.3em; font-size: 0.68rem; }
+            .eyebrow::before { width: 2rem; }
+        }
+
         .hero h1 {
             font-weight: 300;
-            font-size: clamp(3rem, 8.5vw, 7rem);
-            line-height: 0.95;
+            font-size: clamp(2.6rem, 6.5vw, 5.6rem);
+            line-height: 1;
             letter-spacing: 0.01em;
             margin: 0;
         }
@@ -554,7 +557,7 @@
     <header class="hero" id="top">
         <div class="hero-inner">
             <p class="eyebrow">Voice Teacher · New York</p>
-            <h1>Singing gets <em>easier.</em></h1>
+            <h1>Function first. <em>Artistry follows.</em></h1>
             <p class="hero-tag">The great old singers knew something most of us were never taught. I help you find it in
                 your own voice.</p>
             <div class="hero-actions">
@@ -572,7 +575,7 @@
         </div>
         <div class="approach reveal">
             <div>
-                <p class="lede">Function first. Artistry follows.</p>
+                <p class="lede">Great singing begins with mechanics.</p>
             </div>
             <div class="body">
                 <p>I'm Daniel, a voice teacher and a working tenor. I teach two things I wish I'd been taught sooner.
